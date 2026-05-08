@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hobbies</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #ffb347, #ffd700);
+    min-height:100vh;
+    padding-top:90px;
+}
+
+/* NAV */
+nav{
+    background-color:#072649;
+    padding:15px;
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+}
+
+nav ul{
+    list-style:none;
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+}
+
+nav ul li{
+    margin:5px 15px;
+}
+
+nav ul li a{
+    color:white;
+    text-decoration:none;
+    font-size:18px;
+    font-weight:bold;
+}
+
+nav ul li a:hover{
+    color:yellow;
+}
+
+/* TITULO */
+h1{
+    text-align:center;
+    color:#072649;
+    font-size:40px;
+    margin-bottom:30px;
+}
+
+/* CONTENEDOR */
+.contenedor{
+    width:90%;
+    max-width:900px;
+    margin:auto;
+}
+
+/* TARJETAS */
+.card{
+    background:white;
+    padding:30px;
+    margin-bottom:40px;
+    border-radius:20px;
+    text-align:center;
+    box-shadow:0 5px 15px rgba(0,0,0,0.2);
+}
+
+/* SUBTITULOS */
+h2{
+    color:#072649;
+    font-size:30px;
+    margin-bottom:20px;
+}
+
+/* VIDEOS */
+video{
+    width:100%;
+    max-width:500px;
+    border-radius:15px;
+}
+
+/* LINEA */
+hr{
+    border:none;
+    height:4px;
+    width:70%;
+    margin:40px auto;
+    background:#072649;
+    border-radius:20px;
+}
+
+</style>
+</head>
+
+<body>
+
+<nav>
+<ul>
+<li><a href="index.html">Inicio</a></li>
+<li><a href="Presentacion.html">Presentación</a></li>
+<li><a href="academia.html">Académia</a></li>
+<li><a href="Hobbies.html">Hobbies</a></li>
+<li><a href="Referencias.html">Habilidades</a></li>
+<li><a href="registro.html">Registro</a></li>
+</ul>
+</nav>
+
+<h1>Mis Hobbies</h1>
+
+<div class="contenedor">
+
+<div class="card">
+
+<h2>⚽ Jugar Fútbol</h2>
+
+<video controls>
+<source src="video.mp4" type="video/mp4">
+</video>
+
+</div>
+
+<div class="card">
+
+<h2>🏍️ Andar en Moto</h2>
+
+<video controls>
+<source src="video1.mp4" type="video/mp4">
+</video>
+
+</div>
+
+</div>
+
+<hr>
+
+</body>
+</html>
